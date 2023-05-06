@@ -1,0 +1,63 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+   <title>index</title>
+   <link rel="stylesheet" href="estilos.css">   
+   <script src="funciones.js"></script>
+ </head>
+ <body style="display: flex;justify-content: center;">
+    <div>
+        <div id ="divDatos">
+            <fieldset style="display: flex; flex-wrap: wrap; align-content: center; justify-content: center;
+            flex-direction: column;">
+                <div id="divFiltros">
+                    <p>Form Datos</p>
+                    <label for="selectFilter">Filtrar Por:</label>
+                    <select name="selectFilter" id="selectFilter">
+                        <option value="Todos" selected>Todos</option>            
+                    </select>
+                    <br>
+                    <label for="inpPromedio">Calcular Edad Promedio:</label>
+                    <input type="text" diseable id ="inpPromedio">
+                    <input type="button" id="btnPromedio" value="Calcular">                
+                    <br>
+                    <label for="selectFilter">MostrarColumnas:</label>
+                    <br>
+                    <div id="checkColumns">
+                    </div>                                        
+                </div>            
+                <div class="container" id="contenedor">
+                </div>
+                <input id="btnAgregar" type="button" value="Agregar">
+            </fieldset>
+        </div>                
+        <div id="FormularioABM"  style="display: none">
+            <h3>Formulario ABM</h3>
+            <label for="inpId">Id:</label><br>
+            <input type="text" id ="inpId"><br>
+            <label for="inpNombre">Nombre:</label><br>
+            <input type="text" id ="inpNombre"><br>
+            <label for="inpApellido">Apellido:</label><br>
+            <input type="text" id ="inpApellido"><br>
+            <label for="inpEdad">Edad:</label><br>
+            <input type="text" id ="inpEdad"><br>
+            <label for="inpAlterEgo">AlterEgo:</label><br>
+            <input type="text" id ="inpAlterEgo"><br>
+            <label for="inpCiudad">Ciudad:</label><br>
+            <input type="text" id ="inpCiudad"><br>
+            <label for="inpPublicado">Publicado:</label><br>
+            <input type="text" id ="inpPublicado"><br>
+            <label for="inpEnemigo">Enemigo:</label><br>
+            <input type="text" id ="inpEnemigo"><br>
+            <label for="inpRobos">Robos:</label><br>
+            <input type="text" id ="inpRobos"><br>
+            <label for="inpAsesinatos">Asesinatos:</label><br>
+            <input type="text" id ="inpAsesinatos"><br>
+            <button class="btn" id="btnModificar">Modificar</button>
+            <button class="btn" id="btnEliminar">Eliminar</button>
+            <button class="btn" id="btnGuardar">Guardar</button>
+            <button class="btn" id="btnCancelar">Cancelar</button>
+        </div>        
+    </div>            
+ </body>
+ </html>

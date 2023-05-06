@@ -1,0 +1,58 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+  
+td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+  
+th {
+    text-align: left;
+    border: 1px solid #ddd;
+    background-color: #f2f2f2;
+    
+    text-transform: uppercase;    
+}
+
+button{
+    width: 100%;
+    padding: 12px;
+    font-weight: bold;
+}
+
+select{
+    margin: 5px;
+}
+.btn{
+    width: auto;
+    padding: 0 ;
+    text-align: left;
+}
+
+#FormularioABM{
+    position: relative;
+    top: -40%;
+    left: 30%;
+    border: 1px black solid;
+    padding: 10px;
+    margin: 10px;
+    background-color: gray;
+}
+
+
+#divDatos{
+    background-color: rgb(220, 220, 220);
+    display: inline;
+}
+
+.ErrorTd{
+    border: 2px red solid;
+}
+
+
+  
